@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY personal info webpage</title>
+         <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <style>
+        
+
+        .weekly-schedule-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .weekly-schedule-table th,
+        .weekly-schedule-table td {
+
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid rgba(71, 85, 105, 0.5);
+        }
+        
+        .weekly-schedule-table th {
+            background-color: #1e293b; 
+            color: #93c5fd; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 to-slate-800 text-white min-h-screen" onload="AOS.init()">
+
+    <nav class="fixed top-0 w-full bg-slate-900/90 backdrop-blur-sm z-50 p-4 shadow-lg max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-400">Eugine Lunzalu (IT Student)</h1>
+            <div class="hidden md:flex space-x-6">
+                <a href="#profile" class="hover:text-blue-400 transition-colors">Profile</a>
+                <a href="#hobbies" class="hover:text-blue-400 transition-colors">Hobbies & Goals</a>
+                <a href="#schedule" class="hover:text-blue-400 transition-colors">Schedule</a>
+            </div>
+        
+    </nav>
+
+    <header  class="pt-32 pb-16 px-4 bg-slate-800/50 max-w-6xl mx-auto">
+        
+            <h1 class="text-5xl font-extrabold mb-6 text-center text-blue-400" data-aos="zoom-in">
+                Welcome to My Personal Information Page
+            </h1>
+            <p class="text-xl text-gray-300 max-w-4xl mx-auto text-center leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                
+                I’m Eugene Lunzalu, an Information Technology student at Jomo Kenyatta University of Agriculture and Technology with a passion for leveraging technology to solve real-world problems. I specialize in software troubleshooting, IT support, and exploring emerging technologies
+    
+    
+    </header>
+
+    <section id="profile" class="py-16 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 items-center">
+            
+            <figure class="relative col-span-1" data-aos="fade-right">
+                <div class="aspect-square w-80 h-80 mx-auto rounded-full bg-blue-400/20 flex items-center justify-center overflow-hidden border-4 border-blue-400">
+                    <img src="Webimage3.jpg" alt="George Mwangi Profile Photo" width="320" height="320" class="w-full h-full object-cover object-center"> 
+                </div>
+                <figcaption class="sr-only">George Mwangi, IT Student and aspiring entrepreneur.</figcaption>
+            </figure>
+
+            <div class="col-span-2 space-y-6" data-aos="fade-left">
+                <h2 class="text-3xl font-bold text-blue-400">Personal Profile & Vision</h2>
+                <p class="text-gray-300 leading-relaxed">
+                 I’m passionate about technology and problem-solving, and I enjoy exploring software, programming, and IT solutions. Am currently working with Microsoft Security Support in assisting the elderly  troubleshoot and resolve technical issues in their computers, which has strengthened my practical skills and communication. I aim to use my knowledge and experience to create meaningful and accessible tech solutions for everyone.
+                </p>
+                   <a href="https://x.com/Cashy_boyy?t=58XozLsVLgXc1Odebusz8g&s=09" title="Visit my professional profile" target="_blank"
+
+                class="inline-flex items-center space-x-2 py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg">
+                    <i data-lucide="Twitter" class="w-5 h-5"></i>
+                    <span>Visit Professional Profile</span>
+                    
+                    
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="max-w-6xl mx-auto border-slate-700/50">
+
+    <section id="hobbies" class="py-16 px-4 bg-slate-800/30">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+            
+            <div data-aos="fade-up">
+                <h2 class="text-3xl font-bold mb-6 text-blue-400 flex items-center space-x-3">
+                    <i data-lucide="target" class="w-8 h-8"></i>
+                    <span>My Personal Goals</span>
+                </h2>
+                <ol class="list-decimal list-inside text-lg text-gray-300 space-y-3 pl-4">
+                    <li class="p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors border-l-4 border-blue-400">
+                       Enhance communication and teamwork skills through collaboration and IT support experience
+                    </li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors border-l-4 border-blue-400">
+                       Become a certified IT professional and achieve certifications such as Microsoft certified
+                    </li>
+                    <li class="p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors border-l-4 border-blue-400">
+                        Mentor and train others especially the elderly to improve digital literacy and technology adoption.
+                    </li>
+                </ol>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100">
+                <h2 class="text-3xl font-bold mb-6 text-blue-400 flex items-center space-x-3">
+                    <i data-lucide="activity" class="w-8 h-8"></i>
+                    <span>My Hobbies & Interests</span>
+                </h2>
+                <ul class="space-y-3 text-lg text-gray-300">
+                    <li class="flex items-center space-x-3 p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors">
+                        <i data-lucide="code" class="text-blue-400"></i>
+                        <span>IT support and helping others</span>
+                    </li>
+                    <li class="flex items-center space-x-3 p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors">
+                        <i data-lucide="plug-zap" class="text-blue-400"></i>
+                        <span>Learning about cyber security and networking</span>
+                    </li>
+                    <li class="flex items-center space-x-3 p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors">
+                        <i data-lucide="briefcase" class="text-blue-400"></i>
+                        <span>Gaming and simulation</span>
+                    </li>
+                    <li class="flex items-center space-x-3 p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors">
+                        <i data-lucide="book-open-text" class="text-blue-400"></i>
+                        <span>Reading Space blogs,reality shows and news</span>
+                    </li>
+                    <li class="flex items-center space-x-3 p-3 bg-slate-900/50 rounded-lg hover:bg-slate-900 transition-colors">
+                        <i data-lucide="users" class="text-blue-400"></i>
+                        <span>Practicing advanced use of Artificial intelligence</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="max-w-6xl mx-auto border-slate-700/50">
+
+    <section id="schedule" class="py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-blue-400 flex items-center space-x-3" data-aos="fade-up">
+                <i data-lucide="calendar-check" class="w-8 h-8"></i>
+                <span>Weekly Schedule</span>
+            </h2>
+            
+            <div class="overflow-x-auto shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                <table class="weekly-schedule-table" border="1" width="100%" cellpadding="10" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-semibold text-blue-300">Early morning</td>
+                            <td>IT classes</td>
+                            <td>Practical exercises</td>
+                            <td>Weekly planning</td>
+                            <td>Doing nothing/AOB huh!</td>
+                            <td>Watching educative series</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold text-blue-300"> Mid Morning</td>
+                            <td>Explore IT online courses</td>
+                            <td>Attend lectures</td>
+                            <td>Study and project work</td>
+                            <td>Microsoft windows meeting/mentorships</td>
+                            <td>Working out</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold text-blue-300">Afternoon</td>
+                            <td>Classes</td>
+                            <td>Personal projects</td>
+                            <td>Free time/gaming</td>
+                            <td>Weekly review and assignments</td>
+                            <td>Doing assignments</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold text-blue-300">Evening</td>
+                            <td>Working out</td>
+                            <td>Coding research and related</td>
+                            <td>Personal projects</td>
+                            <td>Watching reality shows</td>
+                            <td>Doinf my weekly review</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold text-blue-300">Late night</td>
+                            <td>Lectures</td>
+                            <td>Playing billiards</td>
+                            <td>Watching space documentaries</td>
+                            <td>Computer online support</td>
+                            <td>Watching Premier league games</td>
+                        
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-6 text-center text-gray-400">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="font-semibold text-white">Eugine Lunzalu</p>
+            <p class="text-sm mt-1">Registration Number: SCT221-0117/2024</p>
+            <p class="text-sm mt-2">&copy; 2025 Eugine Lunzalu. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
+    </head>
+    <body>
+        
+    </body>
+    </html>
